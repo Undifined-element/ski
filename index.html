@@ -6,25 +6,28 @@
   <title>SKI</title>
   <link rel="stylesheet" href="css/styles.css">
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ </head>
 
 <body>
 
-  <section id="title">
-
+<section id="title">
+  <header class="top">
+<div class="container-fluid">
+  
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light " >
-      <a class="navbar-brand" href="">
-        <img src="C:\Users\Ajay\Desktop\-Start-master\Start-master\images\brandicon.PNG" width="30" height="30" class="d-inline-block align-top" alt="icon">SKI</a>
+
+    <nav class="navbar bd-highlight navbar-expand-lg navbar-light bg-light justify-content-between" >
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+    <a class="navbar-brand" href="">
+      <img src="C:\Users\Ajay\Desktop\-Start-master\Start-master\images\brandicon.PNG" width="30" height="30" class="d-inline-block align-top" alt="icon">SKI</a>
+      
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto ">
+      <ul class="navbar-nav">
 
-          <li class="nav-item">
+          <li class="nav-item justify-content-between ml-auto">
               <a class="nav-link" href="">Home</a>
              </li>
           <li class="nav-item">
@@ -48,68 +51,140 @@
         <li class="nav-item">
           <a class="nav-link" href="">Contact us</a>
               </li>
-      
-      </ul>
-      <ul class="nav navbar-nav ">
-      <form class="form-fluid">
-        <input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-sm btn-success my-2 my-sm-0" type="submit">Open an Account</button>
-        <button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="button">  Login  </button>
-      </form>
-      </ul>
-   </div>
+              <li class="search">
+                <div class="search-bar">
+                  <form class="d-flex w-100 justify-content-center" method="GET">
+                    <input class="align-self-center search-input form-control ml-sm-2" type="Search" name="s" placeholder="search">
+                    <button type="submit" class="btn btn-outline-success my-2 my-sm-0"><i class="fas fa-search fa-lg pointer text-success-light"></i>
+                    </button>
+                  </form>
+                  </li>
+            </ul>
+          </nav>
+          
+          </div>
+        </div>
+        <!-- .header-content -->
+      </div>
+      <!-- .container -->
+    </header>
+                   
+         </div>
   </nav>
-
-
-
-    <!-- Title -->
+     <!-- Title -->
 
     <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <form class="form d-flex justify-content-right">
+    
+        <button class="btn btn-sm btn-success" type="submit">Open an Account</button>
+        <button class="btn btn-sm btn-outline-success " type="button">  Login  </button>
+      </form>
+      
     </div>
-    <div>
-      <img src="/images/Capture.PNG" alt="iphone-mockup">
-    </div>
+  </div>
 
   </section>
 
   <!-- Features -->
 
   <section id="features">
-
-    <h3>Products & Services.</h3>
+    <h2>Products & Services.</h2>
     <p>SKI offers a wide range of customised financial solutions to meet specific investmen needs of clients</p>
-    <article class="card">
-      <h3 class="card_title">Markets</h3>
-    </article>
-    <article class="card">
-      <h3 class="card_title">IPO</h3>
-    </article>
-    <article class="card">
-      <h3 class="card_title">Mutual Funds</h3>
-    </article>
-    <article class="card">
-      <h3 class="card_title">Merchant Banking</h3>
-    </article>
-    <article class="card">
-      <h3 class="card_title">RTA Services</h3>
-    </article>
+    <div class="row">
+      <div class="feature-box col-lg-2">
+        <i class="fa fa-chart-line"></i>
+        <h4>Markets</h4>
+        
+      </div>
+
+      <div class="column col-lg-2">
+        <h4>IPO</h4>
+        
+      </div>
+
+      <div class="column col-lg-2">
+        <h4>Mutual funds</h4>
+        
+      </div>
+
+      <div class="column col-lg-2">
+        <h4>Insurance</h4>
+        
+      </div>
+
+      <div class="column col-lg-2">
+      <h4>Merchant Banking </h4>
+      </div>
+      </div>
+
+      <div class="column col-lg-2">
+       <h4>RTA Services</h4>
+        
+      </div>
+    </div>
 
 
     
 
   </section>
 
+<!-- Why? -->
+  <section id="why">
+    <h3>Why SKI</h3>
+    <p>Reasons to invest with one of the leading brokers in india</p>
+
+
+    <div class="row">
+      <div class="why-box col-lg-4">
+        <h4>30+ years</h4>
+        <a>of providing tailor made financial Services</a>
+        </div>
+        
+          <div class="why-box col-lg-4">
+            <h4>20K+</h4>
+            <a>satisfied clients including individuals, coporates,and QIBs</a>
+            </div>
+            
+              <div class="why-box col-lg-4">
+                <h4>Rs 1000+ Cr</h4>
+                <a>of assets under custody</a>
+                </div>
+                
+                  <div class="why-box col-lg-4">
+                    <h4>ISO 9001:2015+ ISO 27001</h4>
+                    <a>certified compay with well-difined processes</a>
+                    </div>
+                    
+                      <div class="why-box col-lg-4">
+                        <h4>Team of 50+</h4>
+                        <a>Finance processionals,including CAs, CSs,CFAs, and Lawyers</a>
+                        </div>
+                        
+                          <div class="why-box col-lg-4">
+                            <h4>70+</h4>
+                            <a>Partners and APs,spread across the country</a>
+                            </div>
+
+  </section>
 
   <!-- Testimonials -->
 
   <section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
+    <h2>In The Press</h2>
+    <p>A glimpse of SKI's activities & presentations</p>
+
+   
+
+    <img src="images/mint.png" alt="tc-logo">
+    <img src="images/indt.png" alt="tnw-logo">
+    <img src="images/bs.png" alt="biz-insider-logo">
+    <img src="images/Financial-Express-Logo.png" alt="mashable-logo">
+    <img src="images/moneytoday.png" alt="mashable-logo">
+    <img src="images/ndtv.png" alt="mashable-logo">
+
+     
+    
 
     <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
     <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
@@ -121,10 +196,7 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    
 
   </section>
 
@@ -172,6 +244,15 @@
     <button type="button">Download</button>
     <button type="button">Download</button>
 
+    <div>
+      <h1>Meet new and interesting dogs nearby.</h1>
+      <button type="button">Download</button>
+      <button type="button">Download</button>
+    </div>
+    <div>
+      <img src="/images/Capture.PNG" alt="iphone-mockup">
+      </div>
+
   </section>
 
 
@@ -182,8 +263,8 @@
     <p>© Copyright 2018 TinDog</p>
 
   </footer>
- 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+  
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
 </body>
